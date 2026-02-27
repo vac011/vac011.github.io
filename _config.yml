@@ -1,16 +1,18 @@
-title: "vac011"
-description: "Notes"
-theme: minima
-lang: zh-CN
+title: My Study Notes
 
-permalink: /:title/
+collections:
+  os:
+    output: true
+    permalink: /os/:name/
 
-plugins:
-  - jekyll-feed
+  network:
+    output: true
+    permalink: /network/:name/
 
-# 你想要的分类顺序（可随时改）
-category_order:
-  - 技术
-  - 读书
-  - 随笔
-  - 项目
+  crypto:
+    output: true
+    permalink: /crypto/:name/
+
+  websec:
+    output: true
+    permalink: /websec/:name/
