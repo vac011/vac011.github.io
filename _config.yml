@@ -1,0 +1,16 @@
+title: "vac011"
+description: "Notes"
+theme: minima
+lang: zh-CN
+
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+
+# 你想要的分类顺序（可随时改）
+category_order:
+  - 技术
+  - 读书
+  - 随笔
+  - 项目
