@@ -15,4 +15,4 @@ collections:
 
   CTF:
     output: true
-    permalink: /CTF/:name/
+    permalink: /CTF/:path/

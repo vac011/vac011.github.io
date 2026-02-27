@@ -29,8 +29,28 @@ title: 目录
 
 ---
 
-## CTF
+## ctf
 
-{% for doc in site.CTF %}
+### pwn
+
+{% for doc in site.ctf %}
+  {% if doc.path contains "pwn/" %}
 - [{{ doc.title }}]({{ doc.url }})
+  {% endif %}
+{% endfor %}
+
+### libs
+
+{% for doc in site.ctf %}
+  {% if doc.path contains "libs/" %}
+- [{{ doc.title }}]({{ doc.url }})
+  {% endif %}
+{% endfor %}
+
+### tools
+
+{% for doc in site.ctf %}
+  {% if doc.path contains "tools/" %}
+- [{{ doc.title }}]({{ doc.url }})
+  {% endif %}
 {% endfor %}
