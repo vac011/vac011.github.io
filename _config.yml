@@ -9,10 +9,10 @@ collections:
     output: true
     permalink: /network/:name/
 
-  crypto:
+  tools:
     output: true
-    permalink: /crypto/:name/
+    permalink: /tools/:name/
 
-  websec:
+  CTF:
     output: true
-    permalink: /websec/:name/
+    permalink: /CTF/:name/
